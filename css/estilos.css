@@ -28,7 +28,6 @@ body {
     grid-template-rows: 100px 1fr;
     color: #fff;    
     position: fixed;
-    z-index: 100;
 }
 
 .hero::before {
@@ -65,6 +64,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    z-index: 100;
 }
 
 .nav__title {
@@ -390,7 +390,7 @@ body {
     align-self: flex-end;
     margin-left: 10px;
     transition:  transform .3s;
-    z-index: 1020;;
+    z-index: 100;
 }
 
 .questions__arrow--rotate{
@@ -499,10 +499,13 @@ body {
 
 .footer__icons{
     margin-bottom: 10px;
+    z-index: 1040;
+    
 }
 
 .footer__img{
     width: 30px;
+    
 }
 
 /* Media queries */
