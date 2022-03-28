@@ -190,13 +190,6 @@ body {
     overflow: hidden;
 }
 
-.knowledge_team {
-    background-color: #e5e5f7;
-    background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
-    overflow: hidden;
-}
 
 .knowledge__container{
     display: grid;
@@ -344,6 +337,7 @@ body {
 .testimony__arrow{
     width: 90%;
     cursor: pointer;
+    z-index: 1020;
 }
 
 /* Questions */
@@ -396,6 +390,7 @@ body {
     align-self: flex-end;
     margin-left: 10px;
     transition:  transform .3s;
+    z-index: 1020;;
 }
 
 .questions__arrow--rotate{
@@ -462,6 +457,7 @@ body {
     margin-top: 10px;
     display: flex;
     overflow: hidden;
+    
 }
 
 .footer__input{
@@ -474,6 +470,7 @@ body {
     outline: none;
     border: none;
     margin-right: 16px;
+    z-index: 1040;
 }
 
 .footer__submit{
@@ -487,6 +484,7 @@ body {
     color: #fff;
     border-radius: 6px;
     cursor: pointer;
+    z-index: 1040;
 }
 
 .footer__copy{
@@ -611,6 +609,7 @@ body {
     .footer__form{
         width: 100%;
         justify-content: space-evenly;
+        z-index: 1040;
     }
 
     .footer__input{
